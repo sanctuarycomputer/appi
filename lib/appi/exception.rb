@@ -13,9 +13,9 @@ module APPI
       @code        = code
       @validations = validations
 
-      @status = I18n.t "exceptions.#{code}.status"
-      @title  = I18n.t "exceptions.#{code}.title", details
-      @detail = I18n.t "exceptions.#{code}.detail", details
+      @status = I18n.t "appi_exceptions.#{code}.status"
+      @title  = I18n.t "appi_exceptions.#{code}.title", details
+      @detail = I18n.t "appi_exceptions.#{code}.detail", details
 
       @message = @detail
     end

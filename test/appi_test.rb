@@ -1,7 +1,7 @@
 require 'test_helper'
 
-class AppiTest < ActiveSupport::TestCase
+class APPITest < ActiveSupport::TestCase
   test "truth" do
-    assert_kind_of Module, Appi
+    assert_kind_of Module, APPI
   end
 end

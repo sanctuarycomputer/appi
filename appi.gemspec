@@ -8,9 +8,9 @@ Gem::Specification.new do |s|
   s.name        = "appi"
   s.version     = APPI::VERSION
   s.authors     = ["Hugh Francis"]
-  s.email       = ["me@hughfrancis.me"]
+  s.email       = ["hugh@sanctuary.computer"]
   s.homepage    = "https://github.com/sanctuarycomputer/appi"
-  s.summary     = "A minimal toolkit for building modern, stateless JSON APIs"
+  s.summary     = "A minimal toolkit for building modern, stateless JSON APIs."
   s.description = "A minimal toolkit for building modern, stateless APIs, perfect for single page applications. Built with Ember CLI in mind, but framework agnostic. Use as much or as little as you need."
   s.license     = "MIT"
 

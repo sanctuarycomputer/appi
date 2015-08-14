@@ -1,0 +1,9 @@
+one:
+  id: 1
+  body: "Haha good one Wint"
+  post_id: 1 
+
+two:
+  id: 2
+  body: "I like this."
+  post_id: 1 

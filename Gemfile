@@ -1,5 +1,15 @@
 source 'https://rubygems.org'
 
+# Gems for the Dummy App, not APPI Deps.
+gem 'sqlite3'
+gem 'friendly_id', '~> 5.1.0'
+
+group :development, :test do
+  gem 'pry'
+  gem 'guard'
+  gem 'guard-minitest'
+end
+
 # Declare your gem's dependencies in appi.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.

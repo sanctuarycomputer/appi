@@ -1,0 +1,13 @@
+one:
+  id: 1
+  title: "Wint Dril"
+  slug: "wint-dril"
+  body: "founnd a cicada skin stuck to my nefarious pud"
+  published: true
+
+two:
+  id: 2
+  title: "Wint Dril strikes again"
+  slug: "wint-dril-strikes-again"
+  body: "founnd a cicada skin stuck to my nefarious pud"
+  published: false

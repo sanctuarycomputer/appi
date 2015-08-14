@@ -2,9 +2,9 @@ PATH
   remote: .
   specs:
     appi (0.0.1)
-      email_validator (~> 1.6.0)
-      jwt
-      rails (~> 4.2.2)
+      email_validator (~> 1.6, >= 1.6.0)
+      jwt (~> 1.0, >= 1.0.0)
+      rails (~> 4, > 4)
 
 GEM
   remote: https://rubygems.org/
@@ -44,25 +44,56 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
-    arel (6.0.2)
+    arel (6.0.3)
     builder (3.2.2)
+    coderay (1.1.0)
     email_validator (1.6.0)
       activemodel
     erubis (2.7.0)
-    globalid (0.3.5)
+    ffi (1.9.10)
+    formatador (0.2.5)
+    friendly_id (5.1.0)
+      activerecord (>= 4.0.0)
+    globalid (0.3.6)
       activesupport (>= 4.1.0)
+    guard (2.13.0)
+      formatador (>= 0.2.4)
+      listen (>= 2.7, <= 4.0)
+      lumberjack (~> 1.0)
+      nenv (~> 0.1)
+      notiffany (~> 0.0)
+      pry (>= 0.9.12)
+      shellany (~> 0.0)
+      thor (>= 0.18.1)
+    guard-compat (1.2.1)
+    guard-minitest (2.4.4)
+      guard-compat (~> 1.2)
+      minitest (>= 3.0)
     i18n (0.7.0)
     json (1.8.3)
     jwt (1.0.0)
+    listen (3.0.3)
+      rb-fsevent (>= 0.9.3)
+      rb-inotify (>= 0.9)
     loofah (2.0.2)
       nokogiri (>= 1.5.9)
+    lumberjack (1.0.9)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
+    method_source (0.8.2)
     mime-types (2.6.1)
     mini_portile (0.6.2)
-    minitest (5.7.0)
+    minitest (5.8.0)
+    nenv (0.2.0)
     nokogiri (1.6.6.2)
       mini_portile (~> 0.6.0)
+    notiffany (0.0.7)
+      nenv (~> 0.1)
+      shellany (~> 0.0)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -91,6 +122,11 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
     rake (10.4.2)
+    rb-fsevent (0.9.5)
+    rb-inotify (0.9.5)
+      ffi (>= 0.5.0)
+    shellany (0.0.1)
+    slop (3.6.0)
     sprockets (3.2.0)
       rack (~> 1.0)
     sprockets-rails (2.3.2)
@@ -108,4 +144,8 @@ PLATFORMS
 
 DEPENDENCIES
   appi!
+  friendly_id (~> 5.1.0)
+  guard
+  guard-minitest
+  pry
   sqlite3
